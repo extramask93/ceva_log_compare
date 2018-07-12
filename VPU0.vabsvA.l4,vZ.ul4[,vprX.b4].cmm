@@ -1,0 +1,329 @@
+reset
+sys.cpu Ceva-XM6
+sys.up
+d.l
+
+;VPU0.vabsvA.l4,vZ.ul4[,vprX.b4]
+D.S P:0 %BE %WORD  0xa6f2 0x0000    ;VPU0.vabs v0.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x0800    ;VPU0.vabs v1.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x1000    ;VPU0.vabs v2.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x1800    ;VPU0.vabs v3.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x2000    ;VPU0.vabs v4.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x2800    ;VPU0.vabs v5.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x3000    ;VPU0.vabs v6.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x3800    ;VPU0.vabs v7.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x4000    ;VPU0.vabs v8.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x4800    ;VPU0.vabs v9.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x5000    ;VPU0.vabs v10.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x5800    ;VPU0.vabs v11.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x6000    ;VPU0.vabs v12.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x6800    ;VPU0.vabs v13.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x7000    ;VPU0.vabs v14.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x7800    ;VPU0.vabs v15.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x8000    ;VPU0.vabs v16.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x8800    ;VPU0.vabs v17.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x9000    ;VPU0.vabs v18.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x9800    ;VPU0.vabs v19.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xa000    ;VPU0.vabs v20.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xa800    ;VPU0.vabs v21.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xb000    ;VPU0.vabs v22.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xb800    ;VPU0.vabs v23.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xc000    ;VPU0.vabs v24.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xc800    ;VPU0.vabs v25.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xd000    ;VPU0.vabs v26.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xd800    ;VPU0.vabs v27.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xe000    ;VPU0.vabs v28.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xe800    ;VPU0.vabs v29.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xf000    ;VPU0.vabs v30.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xf800    ;VPU0.vabs v31.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x0000    ;VPU0.vabs v32.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x0800    ;VPU0.vabs v33.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x1000    ;VPU0.vabs v34.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x1800    ;VPU0.vabs v35.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x2000    ;VPU0.vabs v36.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x2800    ;VPU0.vabs v37.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x3000    ;VPU0.vabs v38.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x3800    ;VPU0.vabs v39.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x4000    ;VPU0.vabs v40.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x4800    ;VPU0.vabs v41.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x5000    ;VPU0.vabs v42.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x5800    ;VPU0.vabs v43.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x6000    ;VPU0.vabs v44.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x6800    ;VPU0.vabs v45.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x7000    ;VPU0.vabs v46.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x7800    ;VPU0.vabs v47.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x8000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x8800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x9000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x9800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xa000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xa800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xb000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xb800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xc000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xc800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xd000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xd800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xe000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xe800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xf000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xf800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x0000    ;VPU0.vabs v0.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x0020    ;VPU0.vabs v0.l4, v1.ul4 
+D.S , %BE %WORD  0xa6f2 0x0040    ;VPU0.vabs v0.l4, v2.ul4 
+D.S , %BE %WORD  0xa6f2 0x0060    ;VPU0.vabs v0.l4, v3.ul4 
+D.S , %BE %WORD  0xa6f2 0x0080    ;VPU0.vabs v0.l4, v4.ul4 
+D.S , %BE %WORD  0xa6f2 0x00a0    ;VPU0.vabs v0.l4, v5.ul4 
+D.S , %BE %WORD  0xa6f2 0x00c0    ;VPU0.vabs v0.l4, v6.ul4 
+D.S , %BE %WORD  0xa6f2 0x00e0    ;VPU0.vabs v0.l4, v7.ul4 
+D.S , %BE %WORD  0xa6f2 0x0100    ;VPU0.vabs v0.l4, v8.ul4 
+D.S , %BE %WORD  0xa6f2 0x0120    ;VPU0.vabs v0.l4, v9.ul4 
+D.S , %BE %WORD  0xa6f2 0x0140    ;VPU0.vabs v0.l4, v10.ul4 
+D.S , %BE %WORD  0xa6f2 0x0160    ;VPU0.vabs v0.l4, v11.ul4 
+D.S , %BE %WORD  0xa6f2 0x0180    ;VPU0.vabs v0.l4, v12.ul4 
+D.S , %BE %WORD  0xa6f2 0x01a0    ;VPU0.vabs v0.l4, v13.ul4 
+D.S , %BE %WORD  0xa6f2 0x01c0    ;VPU0.vabs v0.l4, v14.ul4 
+D.S , %BE %WORD  0xa6f2 0x01e0    ;VPU0.vabs v0.l4, v15.ul4 
+D.S , %BE %WORD  0xa6f2 0x0200    ;VPU0.vabs v0.l4, v16.ul4 
+D.S , %BE %WORD  0xa6f2 0x0220    ;VPU0.vabs v0.l4, v17.ul4 
+D.S , %BE %WORD  0xa6f2 0x0240    ;VPU0.vabs v0.l4, v18.ul4 
+D.S , %BE %WORD  0xa6f2 0x0260    ;VPU0.vabs v0.l4, v19.ul4 
+D.S , %BE %WORD  0xa6f2 0x0280    ;VPU0.vabs v0.l4, v20.ul4 
+D.S , %BE %WORD  0xa6f2 0x02a0    ;VPU0.vabs v0.l4, v21.ul4 
+D.S , %BE %WORD  0xa6f2 0x02c0    ;VPU0.vabs v0.l4, v22.ul4 
+D.S , %BE %WORD  0xa6f2 0x02e0    ;VPU0.vabs v0.l4, v23.ul4 
+D.S , %BE %WORD  0xa6f2 0x0300    ;VPU0.vabs v0.l4, v24.ul4 
+D.S , %BE %WORD  0xa6f2 0x0320    ;VPU0.vabs v0.l4, v25.ul4 
+D.S , %BE %WORD  0xa6f2 0x0340    ;VPU0.vabs v0.l4, v26.ul4 
+D.S , %BE %WORD  0xa6f2 0x0360    ;VPU0.vabs v0.l4, v27.ul4 
+D.S , %BE %WORD  0xa6f2 0x0380    ;VPU0.vabs v0.l4, v28.ul4 
+D.S , %BE %WORD  0xa6f2 0x03a0    ;VPU0.vabs v0.l4, v29.ul4 
+D.S , %BE %WORD  0xa6f2 0x03c0    ;VPU0.vabs v0.l4, v30.ul4 
+D.S , %BE %WORD  0xa6f2 0x03e0    ;VPU0.vabs v0.l4, v31.ul4 
+D.S , %BE %WORD  0xa6f2 0x0400    ;VPU0.vabs v0.l4, v32.ul4 
+D.S , %BE %WORD  0xa6f2 0x0420    ;VPU0.vabs v0.l4, v33.ul4 
+D.S , %BE %WORD  0xa6f2 0x0440    ;VPU0.vabs v0.l4, v34.ul4 
+D.S , %BE %WORD  0xa6f2 0x0460    ;VPU0.vabs v0.l4, v35.ul4 
+D.S , %BE %WORD  0xa6f2 0x0480    ;VPU0.vabs v0.l4, v36.ul4 
+D.S , %BE %WORD  0xa6f2 0x04a0    ;VPU0.vabs v0.l4, v37.ul4 
+D.S , %BE %WORD  0xa6f2 0x04c0    ;VPU0.vabs v0.l4, v38.ul4 
+D.S , %BE %WORD  0xa6f2 0x04e0    ;VPU0.vabs v0.l4, v39.ul4 
+D.S , %BE %WORD  0xa6f2 0x0500    ;VPU0.vabs v0.l4, v40.ul4 
+D.S , %BE %WORD  0xa6f2 0x0520    ;VPU0.vabs v0.l4, v41.ul4 
+D.S , %BE %WORD  0xa6f2 0x0540    ;VPU0.vabs v0.l4, v42.ul4 
+D.S , %BE %WORD  0xa6f2 0x0560    ;VPU0.vabs v0.l4, v43.ul4 
+D.S , %BE %WORD  0xa6f2 0x0580    ;VPU0.vabs v0.l4, v44.ul4 
+D.S , %BE %WORD  0xa6f2 0x05a0    ;VPU0.vabs v0.l4, v45.ul4 
+D.S , %BE %WORD  0xa6f2 0x05c0    ;VPU0.vabs v0.l4, v46.ul4 
+D.S , %BE %WORD  0xa6f2 0x05e0    ;VPU0.vabs v0.l4, v47.ul4 
+D.S , %BE %WORD  0xa6f2 0x0600    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0620    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0640    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0660    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0680    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x06a0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x06c0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x06e0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0700    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0720    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0740    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0760    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0780    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x07a0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x07c0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x07e0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0000    ;VPU0.vabs v0.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x0001    ;VPU0.vabs v0.l4, v0.ul4 ,?r33.b4
+D.S , %BE %WORD  0xa6f2 0x0002    ;VPU0.vabs v0.l4, v0.ul4 ,?r34.b4
+D.S , %BE %WORD  0xa6f2 0x0003    ;VPU0.vabs v0.l4, v0.ul4 ,?r35.b4
+D.S , %BE %WORD  0xa6f2 0x0004    ;VPU0.vabs v0.l4, v0.ul4 ,?r36.b4
+D.S , %BE %WORD  0xa6f2 0x0005    ;VPU0.vabs v0.l4, v0.ul4 ,?r37.b4
+D.S , %BE %WORD  0xa6f2 0x0006    ;VPU0.vabs v0.l4, v0.ul4 ,?r38.b4
+D.S , %BE %WORD  0xa6f2 0x0007    ;VPU0.vabs v0.l4, v0.ul4 ,?r39.b4
+D.S , %BE %WORD  0xa6f2 0x0008    ;VPU0.vabs v0.l4, v0.ul4 ,?r40.b4
+D.S , %BE %WORD  0xa6f2 0x0009    ;VPU0.vabs v0.l4, v0.ul4 ,?r41.b4
+D.S , %BE %WORD  0xa6f2 0x000a    ;VPU0.vabs v0.l4, v0.ul4 ,?r42.b4
+D.S , %BE %WORD  0xa6f2 0x000b    ;VPU0.vabs v0.l4, v0.ul4 ,?r43.b4
+D.S , %BE %WORD  0xa6f2 0x000c    ;VPU0.vabs v0.l4, v0.ul4 ,?r44.b4
+D.S , %BE %WORD  0xa6f2 0x000d    ;VPU0.vabs v0.l4, v0.ul4 ,?r45.b4
+D.S , %BE %WORD  0xa6f2 0x000e    ;VPU0.vabs v0.l4, v0.ul4 ,?r46.b4
+D.S , %BE %WORD  0xa6f2 0x000f    ;VPU0.vabs v0.l4, v0.ul4 ,?r47.b4
+D.S , %BE %WORD  0xa6f2 0x0010    ;VPU0.vabs v0.l4, v0.ul4 ,?r48.b4
+D.S , %BE %WORD  0xa6f2 0x0011    ;VPU0.vabs v0.l4, v0.ul4 ,?r49.b4
+D.S , %BE %WORD  0xa6f2 0x0012    ;VPU0.vabs v0.l4, v0.ul4 ,?r50.b4
+D.S , %BE %WORD  0xa6f2 0x0013    ;VPU0.vabs v0.l4, v0.ul4 ,?r51.b4
+D.S , %BE %WORD  0xa6f2 0x0014    ;VPU0.vabs v0.l4, v0.ul4 ,?r52.b4
+D.S , %BE %WORD  0xa6f2 0x0015    ;VPU0.vabs v0.l4, v0.ul4 ,?r53.b4
+D.S , %BE %WORD  0xa6f2 0x0016    ;VPU0.vabs v0.l4, v0.ul4 ,?r54.b4
+D.S , %BE %WORD  0xa6f2 0x0017    ;VPU0.vabs v0.l4, v0.ul4 ,?r55.b4
+D.S , %BE %WORD  0xa6f2 0x0018    ;VPU0.vabs v0.l4, v0.ul4 ,?r56.b4
+D.S , %BE %WORD  0xa6f2 0x0019    ;VPU0.vabs v0.l4, v0.ul4 ,?r57.b4
+D.S , %BE %WORD  0xa6f2 0x001a    ;VPU0.vabs v0.l4, v0.ul4 ,?r58.b4
+D.S , %BE %WORD  0xa6f2 0x001b    ;VPU0.vabs v0.l4, v0.ul4 ,?r59.b4
+D.S , %BE %WORD  0xa6f2 0x001c    ;VPU0.vabs v0.l4, v0.ul4 ,?r60.b4
+D.S , %BE %WORD  0xa6f2 0x001d    ;VPU0.vabs v0.l4, v0.ul4 ,?r61.b4
+D.S , %BE %WORD  0xa6f2 0x001e    ;VPU0.vabs v0.l4, v0.ul4 ,?r62.b4
+D.S , %BE %WORD  0xa6f2 0x001f    ;VPU0.vabs v0.l4, v0.ul4 ,?r63.b4
+D.S , %BE %WORD  0xa6f2 0x0000    ;VPU0.vabs v0.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x0800    ;VPU0.vabs v1.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x1000    ;VPU0.vabs v2.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x1800    ;VPU0.vabs v3.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x2000    ;VPU0.vabs v4.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x2800    ;VPU0.vabs v5.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x3000    ;VPU0.vabs v6.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x3800    ;VPU0.vabs v7.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x4000    ;VPU0.vabs v8.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x4800    ;VPU0.vabs v9.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x5000    ;VPU0.vabs v10.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x5800    ;VPU0.vabs v11.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x6000    ;VPU0.vabs v12.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x6800    ;VPU0.vabs v13.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x7000    ;VPU0.vabs v14.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x7800    ;VPU0.vabs v15.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x8000    ;VPU0.vabs v16.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x8800    ;VPU0.vabs v17.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x9000    ;VPU0.vabs v18.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x9800    ;VPU0.vabs v19.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xa000    ;VPU0.vabs v20.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xa800    ;VPU0.vabs v21.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xb000    ;VPU0.vabs v22.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xb800    ;VPU0.vabs v23.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xc000    ;VPU0.vabs v24.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xc800    ;VPU0.vabs v25.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xd000    ;VPU0.vabs v26.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xd800    ;VPU0.vabs v27.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xe000    ;VPU0.vabs v28.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xe800    ;VPU0.vabs v29.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xf000    ;VPU0.vabs v30.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0xf800    ;VPU0.vabs v31.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x0000    ;VPU0.vabs v32.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x0800    ;VPU0.vabs v33.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x1000    ;VPU0.vabs v34.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x1800    ;VPU0.vabs v35.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x2000    ;VPU0.vabs v36.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x2800    ;VPU0.vabs v37.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x3000    ;VPU0.vabs v38.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x3800    ;VPU0.vabs v39.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x4000    ;VPU0.vabs v40.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x4800    ;VPU0.vabs v41.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x5000    ;VPU0.vabs v42.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x5800    ;VPU0.vabs v43.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x6000    ;VPU0.vabs v44.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x6800    ;VPU0.vabs v45.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x7000    ;VPU0.vabs v46.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x7800    ;VPU0.vabs v47.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x8000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x8800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x9000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0x9800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xa000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xa800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xb000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xb800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xc000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xc800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xd000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xd800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xe000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xe800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xf000    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f3 0xf800    ;VPU0.vabs , v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x0000    ;VPU0.vabs v0.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x0020    ;VPU0.vabs v0.l4, v1.ul4 
+D.S , %BE %WORD  0xa6f2 0x0040    ;VPU0.vabs v0.l4, v2.ul4 
+D.S , %BE %WORD  0xa6f2 0x0060    ;VPU0.vabs v0.l4, v3.ul4 
+D.S , %BE %WORD  0xa6f2 0x0080    ;VPU0.vabs v0.l4, v4.ul4 
+D.S , %BE %WORD  0xa6f2 0x00a0    ;VPU0.vabs v0.l4, v5.ul4 
+D.S , %BE %WORD  0xa6f2 0x00c0    ;VPU0.vabs v0.l4, v6.ul4 
+D.S , %BE %WORD  0xa6f2 0x00e0    ;VPU0.vabs v0.l4, v7.ul4 
+D.S , %BE %WORD  0xa6f2 0x0100    ;VPU0.vabs v0.l4, v8.ul4 
+D.S , %BE %WORD  0xa6f2 0x0120    ;VPU0.vabs v0.l4, v9.ul4 
+D.S , %BE %WORD  0xa6f2 0x0140    ;VPU0.vabs v0.l4, v10.ul4 
+D.S , %BE %WORD  0xa6f2 0x0160    ;VPU0.vabs v0.l4, v11.ul4 
+D.S , %BE %WORD  0xa6f2 0x0180    ;VPU0.vabs v0.l4, v12.ul4 
+D.S , %BE %WORD  0xa6f2 0x01a0    ;VPU0.vabs v0.l4, v13.ul4 
+D.S , %BE %WORD  0xa6f2 0x01c0    ;VPU0.vabs v0.l4, v14.ul4 
+D.S , %BE %WORD  0xa6f2 0x01e0    ;VPU0.vabs v0.l4, v15.ul4 
+D.S , %BE %WORD  0xa6f2 0x0200    ;VPU0.vabs v0.l4, v16.ul4 
+D.S , %BE %WORD  0xa6f2 0x0220    ;VPU0.vabs v0.l4, v17.ul4 
+D.S , %BE %WORD  0xa6f2 0x0240    ;VPU0.vabs v0.l4, v18.ul4 
+D.S , %BE %WORD  0xa6f2 0x0260    ;VPU0.vabs v0.l4, v19.ul4 
+D.S , %BE %WORD  0xa6f2 0x0280    ;VPU0.vabs v0.l4, v20.ul4 
+D.S , %BE %WORD  0xa6f2 0x02a0    ;VPU0.vabs v0.l4, v21.ul4 
+D.S , %BE %WORD  0xa6f2 0x02c0    ;VPU0.vabs v0.l4, v22.ul4 
+D.S , %BE %WORD  0xa6f2 0x02e0    ;VPU0.vabs v0.l4, v23.ul4 
+D.S , %BE %WORD  0xa6f2 0x0300    ;VPU0.vabs v0.l4, v24.ul4 
+D.S , %BE %WORD  0xa6f2 0x0320    ;VPU0.vabs v0.l4, v25.ul4 
+D.S , %BE %WORD  0xa6f2 0x0340    ;VPU0.vabs v0.l4, v26.ul4 
+D.S , %BE %WORD  0xa6f2 0x0360    ;VPU0.vabs v0.l4, v27.ul4 
+D.S , %BE %WORD  0xa6f2 0x0380    ;VPU0.vabs v0.l4, v28.ul4 
+D.S , %BE %WORD  0xa6f2 0x03a0    ;VPU0.vabs v0.l4, v29.ul4 
+D.S , %BE %WORD  0xa6f2 0x03c0    ;VPU0.vabs v0.l4, v30.ul4 
+D.S , %BE %WORD  0xa6f2 0x03e0    ;VPU0.vabs v0.l4, v31.ul4 
+D.S , %BE %WORD  0xa6f2 0x0400    ;VPU0.vabs v0.l4, v32.ul4 
+D.S , %BE %WORD  0xa6f2 0x0420    ;VPU0.vabs v0.l4, v33.ul4 
+D.S , %BE %WORD  0xa6f2 0x0440    ;VPU0.vabs v0.l4, v34.ul4 
+D.S , %BE %WORD  0xa6f2 0x0460    ;VPU0.vabs v0.l4, v35.ul4 
+D.S , %BE %WORD  0xa6f2 0x0480    ;VPU0.vabs v0.l4, v36.ul4 
+D.S , %BE %WORD  0xa6f2 0x04a0    ;VPU0.vabs v0.l4, v37.ul4 
+D.S , %BE %WORD  0xa6f2 0x04c0    ;VPU0.vabs v0.l4, v38.ul4 
+D.S , %BE %WORD  0xa6f2 0x04e0    ;VPU0.vabs v0.l4, v39.ul4 
+D.S , %BE %WORD  0xa6f2 0x0500    ;VPU0.vabs v0.l4, v40.ul4 
+D.S , %BE %WORD  0xa6f2 0x0520    ;VPU0.vabs v0.l4, v41.ul4 
+D.S , %BE %WORD  0xa6f2 0x0540    ;VPU0.vabs v0.l4, v42.ul4 
+D.S , %BE %WORD  0xa6f2 0x0560    ;VPU0.vabs v0.l4, v43.ul4 
+D.S , %BE %WORD  0xa6f2 0x0580    ;VPU0.vabs v0.l4, v44.ul4 
+D.S , %BE %WORD  0xa6f2 0x05a0    ;VPU0.vabs v0.l4, v45.ul4 
+D.S , %BE %WORD  0xa6f2 0x05c0    ;VPU0.vabs v0.l4, v46.ul4 
+D.S , %BE %WORD  0xa6f2 0x05e0    ;VPU0.vabs v0.l4, v47.ul4 
+D.S , %BE %WORD  0xa6f2 0x0600    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0620    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0640    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0660    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0680    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x06a0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x06c0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x06e0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0700    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0720    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0740    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0760    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0780    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x07a0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x07c0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x07e0    ;VPU0.vabs v0.l4,  
+D.S , %BE %WORD  0xa6f2 0x0000    ;VPU0.vabs v0.l4, v0.ul4 
+D.S , %BE %WORD  0xa6f2 0x0001    ;VPU0.vabs v0.l4, v0.ul4 ,?r33.b4
+D.S , %BE %WORD  0xa6f2 0x0002    ;VPU0.vabs v0.l4, v0.ul4 ,?r34.b4
+D.S , %BE %WORD  0xa6f2 0x0003    ;VPU0.vabs v0.l4, v0.ul4 ,?r35.b4
+D.S , %BE %WORD  0xa6f2 0x0004    ;VPU0.vabs v0.l4, v0.ul4 ,?r36.b4
+D.S , %BE %WORD  0xa6f2 0x0005    ;VPU0.vabs v0.l4, v0.ul4 ,?r37.b4
+D.S , %BE %WORD  0xa6f2 0x0006    ;VPU0.vabs v0.l4, v0.ul4 ,?r38.b4
+D.S , %BE %WORD  0xa6f2 0x0007    ;VPU0.vabs v0.l4, v0.ul4 ,?r39.b4
+D.S , %BE %WORD  0xa6f2 0x0008    ;VPU0.vabs v0.l4, v0.ul4 ,?r40.b4
+D.S , %BE %WORD  0xa6f2 0x0009    ;VPU0.vabs v0.l4, v0.ul4 ,?r41.b4
+D.S , %BE %WORD  0xa6f2 0x000a    ;VPU0.vabs v0.l4, v0.ul4 ,?r42.b4
+D.S , %BE %WORD  0xa6f2 0x000b    ;VPU0.vabs v0.l4, v0.ul4 ,?r43.b4
+D.S , %BE %WORD  0xa6f2 0x000c    ;VPU0.vabs v0.l4, v0.ul4 ,?r44.b4
+D.S , %BE %WORD  0xa6f2 0x000d    ;VPU0.vabs v0.l4, v0.ul4 ,?r45.b4
+D.S , %BE %WORD  0xa6f2 0x000e    ;VPU0.vabs v0.l4, v0.ul4 ,?r46.b4
+D.S , %BE %WORD  0xa6f2 0x000f    ;VPU0.vabs v0.l4, v0.ul4 ,?r47.b4
+D.S , %BE %WORD  0xa6f2 0x0010    ;VPU0.vabs v0.l4, v0.ul4 ,?r48.b4
+D.S , %BE %WORD  0xa6f2 0x0011    ;VPU0.vabs v0.l4, v0.ul4 ,?r49.b4
+D.S , %BE %WORD  0xa6f2 0x0012    ;VPU0.vabs v0.l4, v0.ul4 ,?r50.b4
+D.S , %BE %WORD  0xa6f2 0x0013    ;VPU0.vabs v0.l4, v0.ul4 ,?r51.b4
+D.S , %BE %WORD  0xa6f2 0x0014    ;VPU0.vabs v0.l4, v0.ul4 ,?r52.b4
+D.S , %BE %WORD  0xa6f2 0x0015    ;VPU0.vabs v0.l4, v0.ul4 ,?r53.b4
+D.S , %BE %WORD  0xa6f2 0x0016    ;VPU0.vabs v0.l4, v0.ul4 ,?r54.b4
+D.S , %BE %WORD  0xa6f2 0x0017    ;VPU0.vabs v0.l4, v0.ul4 ,?r55.b4
+D.S , %BE %WORD  0xa6f2 0x0018    ;VPU0.vabs v0.l4, v0.ul4 ,?r56.b4
+D.S , %BE %WORD  0xa6f2 0x0019    ;VPU0.vabs v0.l4, v0.ul4 ,?r57.b4
+D.S , %BE %WORD  0xa6f2 0x001a    ;VPU0.vabs v0.l4, v0.ul4 ,?r58.b4
+D.S , %BE %WORD  0xa6f2 0x001b    ;VPU0.vabs v0.l4, v0.ul4 ,?r59.b4
+D.S , %BE %WORD  0xa6f2 0x001c    ;VPU0.vabs v0.l4, v0.ul4 ,?r60.b4
+D.S , %BE %WORD  0xa6f2 0x001d    ;VPU0.vabs v0.l4, v0.ul4 ,?r61.b4
+D.S , %BE %WORD  0xa6f2 0x001e    ;VPU0.vabs v0.l4, v0.ul4 ,?r62.b4
+D.S , %BE %WORD  0xa6f2 0x001f    ;VPU0.vabs v0.l4, v0.ul4 ,?r63.b4
+printer.open testsFromTrace
+winprint.d.l 0x0++0x4fc
+printer.close
